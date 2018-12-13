@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TypeOneCustomView">
+        <attr name="rec_color" format="color"/>
+        <attr name="rec_size" format="dimension"/>
+    </declare-styleable>
+</resources>

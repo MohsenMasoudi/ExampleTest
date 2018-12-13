@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.DataBaseActivity">
+
+    <LinearLayout
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btn_simple_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_database" />
+
+        <Button
+            android:id="@+id/btn_green_dao_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green_dao" />
+
+        <Button
+            android:id="@+id/btn_realm_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/realm" />
+
+        <Button
+            android:id="@+id/btn_sugar_orm_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sugar_orm" />
+
+        <Button
+            android:id="@+id/btn_room_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/room" />
+
+        <Button
+            android:id="@+id/btn_external_data_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/external_data_base" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
+
+
+    <LinearLayout
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btn_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/views" />
+
+        <Button
+            android:id="@+id/btn_internet_connections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/internet_connections" />
+
+        <Button
+            android:id="@+id/btn_dataBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/database" />
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intent" />
+
+        <Button
+            android:id="@+id/btn_big_adapter_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/big_adapter" />
+
+        <Button
+            android:id="@+id/btn_mvp_example_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mvp_ex" />
+    </LinearLayout>
+</ScrollView>

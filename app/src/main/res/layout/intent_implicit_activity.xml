@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".intent.ImplicitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_view_intent_implicit_activity"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_txt_enter_name_implicit_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            tools:ignore="Autofill" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_txt_enter_detail_intent_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_detail"
+            android:inputType="text"
+            tools:ignore="Autofill" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_txt_enter_dial_number_intent_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_number"
+            android:inputType="number"
+            tools:ignore="Autofill" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edit_txt_enter_email_address_implicit_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_email_address"
+                android:inputType="textEmailAddress"
+                tools:ignore="Autofill,TextFields" />
+        </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial" />
+
+    <Button
+        android:id="@+id/btn_open_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_google" />
+
+        <Button
+            android:id="@+id/btn_get_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_picture_fom_gallery" />
+
+        <Button
+            android:id="@+id/btn_send_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_text" />
+
+        <Button
+            android:id="@+id/btn_send_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_image" />
+        <Button
+            android:id="@+id/btn_send_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_email" />
+        <Button
+            android:id="@+id/btn_get_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_contact" />
+
+    </LinearLayout>
+</ScrollView>

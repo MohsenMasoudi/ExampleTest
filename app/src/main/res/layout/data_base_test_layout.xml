@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".data_base.simple_sqlite_data_base.SimpleDataBaseActivity"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/data_base_test_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#D371ECDB"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#6EFA75"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/brn_data_base_add_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/add_school" />
+
+        <Button
+            android:id="@+id/btn_Show_Schools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/show_schools" />
+
+        <Button
+            android:id="@+id/btn_data_base_add_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/add_manager" />
+
+        <Button
+            android:id="@+id/btn_show_managers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/show_managers" />
+
+        <Button
+            android:id="@+id/btn_data_base_add_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/add_teacher" />
+
+        <Button
+            android:id="@+id/ntn_show_teachers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/show_teachers" />
+
+        <Button
+            android:id="@+id/btn_data_base_add_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/add_student" />
+
+        <Button
+            android:id="@+id/btn_show_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="@string/show_students" />
+
+    </LinearLayout>
+</LinearLayout>

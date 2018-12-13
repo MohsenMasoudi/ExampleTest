@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/big_adapter_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".big_adapter.BigAdapterViewActivity">
+
+    <Button
+        android:id="@+id/btn_big_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:tag="btn_big_adapter"
+        android:text="@string/mvp_example" />
+
+    <com.example.mohsen.exampletest.infinite_recyclere_view.InfiniteRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_big_adapter"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:tag="recycler_view_big_adapter" />
+</RelativeLayout>

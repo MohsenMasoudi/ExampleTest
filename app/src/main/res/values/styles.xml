@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemeRetrofitConnection" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#c2185b</item>
+        <item name="colorAccent">#ff80ab</item>
+    </style>
+    <style name="AppThemeDeepPurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#673ab7</item>
+        <item name="colorPrimaryDark">#512da8</item>
+        <item name="colorAccent">#b388ff</item>
+    </style>
+
+</resources>

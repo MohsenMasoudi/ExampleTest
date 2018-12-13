@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#64D1C4E9"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView_max_weather_item_list_xml_api"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:checkMark="@drawable/ic_arrow_drop_up_green_500_48dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView_min_weather_item_list_xml_api"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"
+            android:checkMark="@drawable/ic_arrow_drop_down_red_500_48dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_view_city_name_weather_item_list_xml_api"
+            android:layout_width="75dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_temp_weather_item_list_xml_api"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView_condition_weather_item_list_xml_api"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:height="0dp"
+            android:gravity="center|end"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_dayName_weather_item_list_xml_api"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/imageView_symbol_weather_item_list_xml_api"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#CC5FB2E9"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_name_data_base_school_item_for_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txt_id_data_base_school_item_for_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txt_manager_data_base_school_item_for_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:gravity="start"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/txt_student_number_data_base_school_item_for_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txt_teachers_number_data_base_school_item_for_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        android:padding="10dp" />
+
+
+</LinearLayout>
